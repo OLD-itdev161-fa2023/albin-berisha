@@ -27,7 +27,8 @@
     "esm": "^3.2.25",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
-    "mongoose": "^6.6.1"
+    "mongoose": "^6.6.1",
+    "react-final-form": "^6.3.0"
   },
   "devDependencies": {
     "concurrently": "^7.4.0",
