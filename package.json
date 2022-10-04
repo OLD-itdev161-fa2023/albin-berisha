@@ -1,14 +1,14 @@
 {
   "name": "albin-berisha",
   "version": "1.0.0",
-  "description": "itdev161-assignment-2",
+  "description": "I Typed this from my code editor.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r esm server.js",
     "server": "nodemon -r esm server.js",
     "client": "npm start --prefix client",
-    "dev": "npm run server && npm run client"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,12 @@
   "homepage": "https://github.com/itdev161-fa2023/albin-berisha#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.8",
+    "config": "^3.3.7",
     "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
-    "mongoose": "^6.6.1"
+    "mongoose": "^6.5.5"
   },
   "devDependencies": {
     "concurrently": "^7.4.0",
