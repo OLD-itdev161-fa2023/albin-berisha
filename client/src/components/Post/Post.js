@@ -10,5 +10,5 @@ const Post = props => {
     </div>
   );
 };
-
+//post title and post body
 export default Post;

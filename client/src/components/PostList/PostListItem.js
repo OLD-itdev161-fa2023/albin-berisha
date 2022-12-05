@@ -26,11 +26,12 @@ const PostListItem = props => {
         <p>{post.body}</p>
       </div>
       <div className="postControls">
-        <button onClick={() => deletePost(post)}>Delete</button>
+        <button onClick={() => deletePost(post)}>Delete</button>    
         <button onClick={() => handleEditPost(post)}>Edit</button>
       </div>
     </div>
   );
+  //deletePost and handeEditPost buttons created
 };
 
 export default PostListItem;
